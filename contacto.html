@@ -96,24 +96,44 @@
 
             </div>
 
-            
+            <!-- checkbox -->
             <div class="mb-3">
                   <input
                         type="checkbox"
                         class="form-check-input"
                         name="checkCampo"
-                        id="checkbox">
-            </div>
+                        id="checkbox"
+                  >
+                  <label for="checkbox" class="form-check-label">checkbox</label>
 
+            </div>
+               <!-- checkbox -->
 
 
             <button 
+                   id="btnEnviar"
                   class="btn btn-primary w-100"
                   type="submit"            
             >
               Enviar
             </button>
 
+            <!-- spinner -->
+           <button
+                id="btnLoading"
+                class="btn btn-secondary w-100 d-none"
+                disabled
+                type="button"
+           >    <span 
+                    class="spinner-border spinner-border-sm"
+                    role="status" 
+                    aria-hidden="true">
+                </span>
+              Loading.....
+
+
+           </button>
+           <!-- spinner -->
 
 
 
